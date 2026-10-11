@@ -4,14 +4,9 @@
 # Saved services the recorder writes (audio + transcript). Private by definition.
 recordings/
 
-# Web caption relay: real token config and live caption store are per-deployment.
-web/captions/config.php
-web/captions/captions.json
-web/captions/clips/
-web/captions/archive/
-
-# The exe ships as a GitHub Release asset, never committed into the tree.
+# The exe and the web-captions relay ship as GitHub Release assets, not in the tree.
 *.exe
+*.zip
 
 # OS / editor noise
 .DS_Store

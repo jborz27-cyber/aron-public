@@ -1,5 +1,14 @@
 # Changelog
 
+## [v2.11.3] — 2026-10-11
+
+### Changed
+- **Public releases-only distribution.** The Windows build now ships from a
+  dedicated public repo as a GitHub Release — the exe plus a `web-captions.zip`
+  for the optional phone-caption relay. The release flow gained a privacy gate
+  and a public-mirror step. Internal developer comments and changelog notes that
+  named test-sermon speakers were generalized; no functional change to the app.
+
 ## [v2.11.2] — 2026-10-10
 
 ### Changed

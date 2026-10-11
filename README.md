@@ -181,10 +181,10 @@ ever sees finalized caption text. With TTS on, the same stream can carry the
 *spoken* translation (a **Listen** button on the phone page), and **Clear**
 rolls each service into a dated archive.
 
-The PHP relay you deploy to your host is in **[`web/captions/`](web/captions/)** —
-full walkthrough in [`web/captions/README.md`](web/captions/README.md). Nothing
-here is on by default: with the **Web** toggle off, the app behaves exactly as
-before.
+The PHP relay you deploy to your host ships as **`web-captions.zip`**, attached
+to each [release](../../releases) — unzip it on your PHP host and follow the
+`README.md` inside. Nothing here is on by default: with the **Web** toggle off,
+the app behaves exactly as before.
 
 ## Projecting to ProPresenter (optional)
 
